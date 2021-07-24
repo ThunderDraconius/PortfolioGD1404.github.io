@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HA140087</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid" style="padding-top: 10px; padding-bottom: 20px;">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="image/logo.png" alt="Logo" style="margin-left: 30px;">
+      </a>
+      
+      <!-- Links -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><u>Home</u></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Works
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="day-1.html" target="_blank">Day 1</a>
+              <a class="dropdown-item" href="website-1/website_1.html" target="_blank">Day 2 & 3</a>
+              <a class="dropdown-item" href="website-2/index.html" target="_blank">Day 4, 5 & 6</a>
+              <a class="dropdown-item" href="index.html" target="_blank">Day 7, 8 & 9</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" style="margin-right: 30px;">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Wallpaper -->
+  <header>
+    <div class="container-fluid">
+      <img src="image/wallpaper1.jpg" alt="Wallpaper" style="width: 100%;">
+      <div class="top-left">
+        <h1 style="font-family: Poppins; font-weight: 500; font-size: 48px; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 0px;">Welcome to</h1>
+        <h1 style="font-family: Poppins; font-weight: bold; font-size: 80px; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 30px; color: #f4a261;">my Portfolio</h1>
+        <p style="margin-right: 500px; margin-bottom: 40px;">This is my course portfolio for WDT401 - Web design 2. It contains works from my Web Design 2 class at FPT University. In this class, I have learned how to use codes to design a websites.</p>
+        <a href="#works" class="button">View my works</a>
+        <a href="contact.html" class="button-outline">Contact me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile introduction -->
+  <section style="margin-left: 100px; margin-right: 100px; margin-top: 100px;">
+    <h1 style="font-family: Poppins; text-align: center; font-weight: 700; font-size: 36px; color: #e76f51;">Introduction</h1>
+    <p style="text-align: center; margin-top: 20px;">Introducing some personal informations about myself.</p>
+    <div class="container drop-shadow" style="width: 1000px; margin: auto; margin-top: 50px; padding-top: 50px; padding-bottom: 50px; border-radius: 15px; background-color: #f7e1ab;">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <img src="image/profile-picture.png" style="padding-left: 80px;">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align: left; padding-left: 0px; padding-right: 70px;">
+          <h2 style="color: #264653;"><u>CAO MINH TRI</u></h2>
+          <br>
+          <p style="margin-top: 10px; margin-bottom: 20px; line-height: 36px;">
+            - Student ID: <b>HA140087</b><br>
+            - School: <b>FPT University</b><br>
+            - Major: <b>Graphic Design</b><br>
+            - Address: <b>To Huu, Trung Van, Hanoi</b><br>
+            - Interests: <b>Playing games, drawing</b>
+          </p>
+          <hr>
+          <p style="margin-top: 20px; line-height: 36px;">
+            - Class: <b>GD1404</b><br>
+            - Lecturer: <b>Ms. Shruthi</b>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Thoughts about class -->
+  <section style="padding-left: 100px; padding-right: 100px; padding-top: 50px; padding-bottom: 50px; margin-top: 150px; background-color: #f4a261; color: white;">
+    <h1 style="font-family: Poppins; text-align: center; font-weight: 700; font-size: 36px; margin-bottom: 50px;">My thoughts about WDT401</h1>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <p style="padding: 50px; font-size: 20px;">Before starting this course, I have already known a little bit about coding. Therefore, this course was not really hard for me to study. Once you grasp the basics, figuring out and implementing a code isn't as challenging as you thought. For me, the most interesting things to learn in this course were CSS and Javascript, because these two languages are crucial if you want to have a more elevated, appealing website.</p>
+          <p class="bottom-right"><b>Read more...</b></p>
+        </div>
+        <div class="flip-card-back">
+          <p style="padding: 50px; font-size: 20px;">I want to give my thanks to Ms. Shruthi for teaching me this wonderful subject. I had an enjoying time learning basic coding for web design. If only the course could be longer. Regardless, thank you for helping me throughout this course. <3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works section -->
+  <a name="works">  </a>
+  <section style="margin: 100px; margin-bottom: 200px;">
+    <h1 style="font-family: Poppins; text-align: center; font-weight: 700; font-size: 36px; color: #e76f51;">Works</h1>
+    <p style="text-align: center; margin-top: 20px;">Showcasing my works from the beginning till the end of this course.</p>
+      <div class="container-fluid" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="day-1.html" target="_blank">
+              <img src="image/day-1.png" class="img-fluid works-image">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="website-1/website_1.html" target="_blank">
+              <img src="image/day-2-3.png" class="img-fluid works-image">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="website-2/index.html" target="_blank">
+              <img src="image/day-4-5-6.png" class="img-fluid works-image">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <a href="index.html" target="_blank">
+              <img src="image/day-7-8-9.png" class="img-fluid works-image">
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="width: 100%; background-color: #264653; text-align: center; padding-top: 80px; color: white;">
+    <div class="container-fluid">
+      <div class="row" style="padding: 0px; margin-left: 240px; margin-right: 240px;">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align: left;">
+          <h4 style="color: #f4a261; font-size: 20px; margin-bottom: 5px;">
+            CAO MINH TRI'S
+          <h3 style="color: #f4a261; font-size: 30px;">
+            <b>PORTFOLIO</b>
+          </h3>
+          <br>
+          <p>Follow</p>
+          <!-- Load font awesome icons -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <!-- The social media icon bar -->
+          <div class="icon-bar">
+            <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding-left: 100px; text-align: right; font-size: 16px;">
+          <p style="margin-bottom: 5px;">
+            Addr: <i>The Light Tower, Trung Van, To Huu Street, Nam Tu Liem, Ha Noi</i>
+          <p style="line-height: 30px;">
+            Email: <i>thunderdraconius@gmail.com</i><br>
+            Phone: <i>(+84) 91 493 9611</i>
+          </p>
+        </div>
+      </div>
+
+      <p style="font-size: 14px; margin-top: 80px; padding-left: 250px; padding-top: 10px; padding-bottom: 10px; font-weight: 200; margin-bottom: 0px; background-color: black;">
+        ©2021 Cao Minh Tri's Web Design Portfolio.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+
+</body>
+</html>
+
+<style>
+  /* Font format */
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;// light;
+  }
+
+  u {
+   text-decoration-line: underline;
+   text-underline-offset: 10px;
+  }
+
+  /* Navbar style */
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+
+  .dropdown-menu {
+    margin-top: 0;
+  }
+  
+  /* header holding the image and the text */
+  .container-fluid {
+    padding: 0px;
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 260px;
+    left: 110px;
+    z-index: 2;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 25px;
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    text-align: left;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+    padding: 0px;
+  }
+
+  .facebook {
+    color: white;
+  }
+
+  .twitter {
+    color: white;
+  }
+
+  /* Scroll to top button */
+  #myBtn {
+    display: none;
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    bottom: 70px;
+    right: 50px;
+    z-index: 99;
+    font-weight: 600;
+    font-size: 36px;
+    border: none;
+    outline: none;
+    background-color: #e9c46a;
+    color: white;
+    cursor: pointer;
+    border-radius: 60px;
+  }
+
+  #myBtn:hover {
+    background-color: #ba9230;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .button {
+    background-color: #e76f51;
+    border: 3px solid #e76f51;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color: #c2553a;
+    border: 3px solid #c2553a;
+    color: white;
+    text-decoration: none;
+  }
+
+  .button-outline {
+    background-color: transparent;
+    border: 3px solid #e76f51;
+    color: #e76f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+  }
+
+  .button-outline:hover {
+    background-color: #c2553a;
+    border: 3px solid #c2553a;
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Center image */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /* Drop shadow */
+  .drop-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  .flip-card {
+    background-color: transparent;
+    width: 800px;
+    height: 350px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+  }
+
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 15px;
+  }
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  /* Style the front side */
+  .flip-card-front {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* Style the back side */
+  .flip-card-back {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* Works section images */
+  .works-image {
+    opacity: 1;
+    width: 100%;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .works-image:hover {
+    opacity: 0.6;
+    border: 5px solid #e76f51;
+  }
+  
+</style>
+
+<script>
+    // Dropdown on hover //
+        const $dropdown = $(".dropdown");
+        const $dropdownToggle = $(".dropdown-toggle");
+        const $dropdownMenu = $(".dropdown-menu");
+        const showClass = "show";
+         
+        $(window).on("load resize", function() {
+          if (this.matchMedia("(min-width: 768px)").matches) {
+            $dropdown.hover(
+              function() {
+                const $this = $(this);
+                $this.addClass(showClass);
+                $this.find($dropdownToggle).attr("aria-expanded", "true");
+                $this.find($dropdownMenu).addClass(showClass);
+              },
+              function() {
+                const $this = $(this);
+                $this.removeClass(showClass);
+                $this.find($dropdownToggle).attr("aria-expanded", "false");
+                $this.find($dropdownMenu).removeClass(showClass);
+              }
+            );
+          } else {
+            $dropdown.off("mouseenter mouseleave");
+          }
+        });
+
+    // Change navbar color when scrolling //
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if(scroll < 200){
+                $('.fixed-top').css('background', 'transparent');
+            } 
+            else{
+                $('.fixed-top').css('background', '#264653');
+            }
+        });
+
+    //Get the button//
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button//
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document//
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+</script>
